@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot with Ollama</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>🧠 Inventory Assistant</h2>
+    <div id="chat-box"></div>
+
+    <div class="input-group">
+      <input type="text" id="user-query" placeholder="Ask something..." />
+      <button onclick="sendQuery()">Send</button>
+    </div>
+  </div>
+
+  <script>
+    async function sendQuery() {
+      const queryInput = document.getElementById('user-query');
+      const query = queryInput.value.trim();
+      if (!query) return;
+
+      appendMessage("🧑‍💻", query);
+      queryInput.value = "";
+
+      const response = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      });
+
+      const data = await response.json();
+      appendMessage("🤖", data.response);
+    }
+
+    function appendMessage(sender, text) {
+      const chatBox = document.getElementById('chat-box');
+      const msgDiv = document.createElement('div');
+      msgDiv.className = "message";
+      msgDiv.innerHTML = `<strong>${sender}</strong>: ${text}`;
+      chatBox.appendChild(msgDiv);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  </script>
+</body>
+</html>
