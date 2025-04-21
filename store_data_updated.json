@@ -1,0 +1,2246 @@
+{
+    "NYC-001": {
+        "total_stock": 5869,
+        "avg_product_rate": 464.49899999999997,
+        "total_rate": 2791592.12,
+        "categories": {
+            "grocery": {
+                "total_stock": 1037,
+                "avg_product_rate": 489.8379999999999,
+                "total_rate": 564269.2999999999,
+                "content": "Category grocery: Total stock: 1037, Average product rate: 489.8379999999999, Total rate: 564269.2999999999",
+                "comment": "Grocery performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Vegetables",
+                        "current_stock": 33,
+                        "threshold_value": 46,
+                        "product_company": "Target",
+                        "expiry_date": "2025-12-23 20:06:59.841705",
+                        "product_rate": 281.07,
+                        "total_rate": 9275.23,
+                        "donors": [
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 73,
+                                "can_donate": 43
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1375,
+                "avg_product_rate": 495.741,
+                "total_rate": 757339.76,
+                "content": "Category furniture: Total stock: 1375, Average product rate: 495.741, Total rate: 757339.76",
+                "comment": "Furniture performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "electronics": {
+                "total_stock": 1365,
+                "avg_product_rate": 495.11499999999995,
+                "total_rate": 641387.32,
+                "content": "Category electronics: Total stock: 1365, Average product rate: 495.11499999999995, Total rate: 641387.32",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Smartphone",
+                        "current_stock": 19,
+                        "threshold_value": 35,
+                        "product_company": "Huawei",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 477.94,
+                        "total_rate": 9080.88,
+                        "donors": [
+                            {
+                                "store_id": "NYC-003",
+                                "available_stock": 62,
+                                "can_donate": 18
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 1087,
+                "avg_product_rate": 286.795,
+                "total_rate": 301380.85,
+                "content": "Category clothing: Total stock: 1087, Average product rate: 286.795, Total rate: 301380.85",
+                "comment": "Clothing has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            },
+            "beverages": {
+                "total_stock": 1005,
+                "avg_product_rate": 555.0060000000001,
+                "total_rate": 527214.89,
+                "content": "Category beverages: Total stock: 1005, Average product rate: 555.0060000000001, Total rate: 527214.89",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Juice",
+                        "current_stock": 23,
+                        "threshold_value": 46,
+                        "product_company": "Gatorade",
+                        "expiry_date": "2025-08-21 20:06:59.836566",
+                        "product_rate": 868.34,
+                        "total_rate": 19971.91,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 110,
+                                "can_donate": 94
+                            },
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 163,
+                                "can_donate": 139
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 123,
+                                "can_donate": 87
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for NYC-001: Total stock: 5869, Average product rate: 464.49899999999997, Total rate: 2791592.12",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in clothing.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [],
+            "overstock_warnings": []
+        },
+        "region": "NYC"
+    },
+    "NYC-002": {
+        "total_stock": 5954,
+        "avg_product_rate": 481.54019999999997,
+        "total_rate": 2703430.41,
+        "categories": {
+            "clothing": {
+                "total_stock": 992,
+                "avg_product_rate": 462.172,
+                "total_rate": 347593.93999999994,
+                "content": "Category clothing: Total stock: 992, Average product rate: 462.172, Total rate: 347593.93999999994",
+                "comment": "Clothing performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Hoodie",
+                        "current_stock": 10,
+                        "threshold_value": 15,
+                        "product_company": "Adidas",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 868.24,
+                        "total_rate": 8682.36,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 118,
+                                "can_donate": 88
+                            }
+                        ]
+                    }
+                ]
+            },
+            "electronics": {
+                "total_stock": 1080,
+                "avg_product_rate": 473.651,
+                "total_rate": 467638.23,
+                "content": "Category electronics: Total stock: 1080, Average product rate: 473.651, Total rate: 467638.23",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "grocery": {
+                "total_stock": 1265,
+                "avg_product_rate": 394.2,
+                "total_rate": 457465.68000000005,
+                "content": "Category grocery: Total stock: 1265, Average product rate: 394.2, Total rate: 457465.68000000005",
+                "comment": "Grocery has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Canned Beans",
+                        "current_stock": 12,
+                        "threshold_value": 16,
+                        "product_company": "Safeway",
+                        "expiry_date": "2025-09-09 20:06:59.850579",
+                        "product_rate": 429.77,
+                        "total_rate": 5157.27,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 148,
+                                "can_donate": 105
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 186,
+                                "can_donate": 160
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 143,
+                                "can_donate": 127
+                            }
+                        ]
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1381,
+                "avg_product_rate": 501.50999999999993,
+                "total_rate": 684545.3599999999,
+                "content": "Category beverages: Total stock: 1381, Average product rate: 501.50999999999993, Total rate: 684545.3599999999",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "furniture": {
+                "total_stock": 1236,
+                "avg_product_rate": 576.168,
+                "total_rate": 746187.2,
+                "content": "Category furniture: Total stock: 1236, Average product rate: 576.168, Total rate: 746187.2",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            }
+        },
+        "content": "Summary for NYC-002: Total stock: 5954, Average product rate: 481.54019999999997, Total rate: 2703430.41",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in clothing.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "clothing"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "NYC"
+    },
+    "NYC-003": {
+        "total_stock": 5326,
+        "avg_product_rate": 497.75719999999995,
+        "total_rate": 2690241.8400000003,
+        "categories": {
+            "electronics": {
+                "total_stock": 1006,
+                "avg_product_rate": 422.075,
+                "total_rate": 468770.6400000001,
+                "content": "Category electronics: Total stock: 1006, Average product rate: 422.075, Total rate: 468770.6400000001",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Smart Speaker",
+                        "current_stock": 14,
+                        "threshold_value": 32,
+                        "product_company": "Sony",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 670.39,
+                        "total_rate": 9385.52,
+                        "donors": [
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 161,
+                                "can_donate": 119
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 1238,
+                "avg_product_rate": 349.198,
+                "total_rate": 433322.75,
+                "content": "Category grocery: Total stock: 1238, Average product rate: 349.198, Total rate: 433322.75",
+                "comment": "Grocery has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            },
+            "beverages": {
+                "total_stock": 1163,
+                "avg_product_rate": 457.4709999999999,
+                "total_rate": 511482.77,
+                "content": "Category beverages: Total stock: 1163, Average product rate: 457.4709999999999, Total rate: 511482.77",
+                "comment": "Beverages performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Water",
+                        "current_stock": 30,
+                        "threshold_value": 31,
+                        "product_company": "Pepsi",
+                        "expiry_date": "2026-11-18 20:06:59.858755",
+                        "product_rate": 410.55,
+                        "total_rate": 12316.38,
+                        "donors": []
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1060,
+                "avg_product_rate": 577.237,
+                "total_rate": 634855.1,
+                "content": "Category furniture: Total stock: 1060, Average product rate: 577.237, Total rate: 634855.1",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Dining Table",
+                        "current_stock": 18,
+                        "threshold_value": 42,
+                        "product_company": "Restoration Hardware",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 789.6,
+                        "total_rate": 14212.75,
+                        "donors": [
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 67,
+                                "can_donate": 30
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Armchair",
+                        "current_stock": 36,
+                        "threshold_value": 44,
+                        "product_company": "Ashley",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 309.91,
+                        "total_rate": 11156.73,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 124,
+                                "can_donate": 66
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 49,
+                                "can_donate": 33
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 859,
+                "avg_product_rate": 682.8050000000001,
+                "total_rate": 641810.5800000001,
+                "content": "Category clothing: Total stock: 859, Average product rate: 682.8050000000001, Total rate: 641810.5800000001",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "T-Shirt",
+                        "current_stock": 10,
+                        "threshold_value": 23,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 506.92,
+                        "total_rate": 5069.17,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 162,
+                                "can_donate": 131
+                            },
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 164,
+                                "can_donate": 110
+                            },
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 191,
+                                "can_donate": 170
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Suit",
+                        "current_stock": 24,
+                        "threshold_value": 40,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 562.8,
+                        "total_rate": 13507.25,
+                        "donors": [
+                            {
+                                "store_id": "LA-003",
+                                "available_stock": 160,
+                                "can_donate": 146
+                            },
+                            {
+                                "store_id": "CHI-001",
+                                "available_stock": 162,
+                                "can_donate": 120
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 135,
+                                "can_donate": 79
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Sweater",
+                        "current_stock": 42,
+                        "threshold_value": 45,
+                        "product_company": "H&M",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 790.01,
+                        "total_rate": 33180.33,
+                        "donors": [
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 49,
+                                "can_donate": 30
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for NYC-003: Total stock: 5326, Average product rate: 497.75719999999995, Total rate: 2690241.8400000003",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in clothing but underperforms in grocery.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "clothing"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "NYC"
+    },
+    "LA-001": {
+        "total_stock": 5185,
+        "avg_product_rate": 435.69100000000003,
+        "total_rate": 2351805.31,
+        "categories": {
+            "electronics": {
+                "total_stock": 949,
+                "avg_product_rate": 455.36800000000005,
+                "total_rate": 450328.22,
+                "content": "Category electronics: Total stock: 949, Average product rate: 455.36800000000005, Total rate: 450328.22",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Smartphone",
+                        "current_stock": 28,
+                        "threshold_value": 39,
+                        "product_company": "Dell",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 987.66,
+                        "total_rate": 27654.35,
+                        "donors": [
+                            {
+                                "store_id": "LA-003",
+                                "available_stock": 104,
+                                "can_donate": 77
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Smartwatch",
+                        "current_stock": 36,
+                        "threshold_value": 41,
+                        "product_company": "Huawei",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 61.2,
+                        "total_rate": 2203.07,
+                        "donors": [
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 88,
+                                "can_donate": 42
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 972,
+                "avg_product_rate": 401.59299999999996,
+                "total_rate": 454486.21,
+                "content": "Category grocery: Total stock: 972, Average product rate: 401.59299999999996, Total rate: 454486.21",
+                "comment": "Grocery performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Rice",
+                        "current_stock": 32,
+                        "threshold_value": 46,
+                        "product_company": "Kroger",
+                        "expiry_date": "2026-04-21 20:06:59.860856",
+                        "product_rate": 353.39,
+                        "total_rate": 11308.42,
+                        "donors": []
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 969,
+                "avg_product_rate": 545.234,
+                "total_rate": 518709.44,
+                "content": "Category beverages: Total stock: 969, Average product rate: 545.234, Total rate: 518709.44",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Energy Drink",
+                        "current_stock": 24,
+                        "threshold_value": 33,
+                        "product_company": "Dr Pepper",
+                        "expiry_date": "2026-04-03 20:06:59.859320",
+                        "product_rate": 659.15,
+                        "total_rate": 15819.7,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 101,
+                                "can_donate": 62
+                            },
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 146,
+                                "can_donate": 130
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1231,
+                "avg_product_rate": 392.35599999999994,
+                "total_rate": 520128.43,
+                "content": "Category furniture: Total stock: 1231, Average product rate: 392.35599999999994, Total rate: 520128.43",
+                "comment": "Furniture has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            },
+            "clothing": {
+                "total_stock": 1064,
+                "avg_product_rate": 383.90400000000005,
+                "total_rate": 408153.01,
+                "content": "Category clothing: Total stock: 1064, Average product rate: 383.90400000000005, Total rate: 408153.01",
+                "comment": "Clothing has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Scarf",
+                        "current_stock": 16,
+                        "threshold_value": 43,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 288.04,
+                        "total_rate": 4608.68,
+                        "donors": []
+                    },
+                    {
+                        "product_name": "Jacket",
+                        "current_stock": 18,
+                        "threshold_value": 20,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 836.63,
+                        "total_rate": 15059.26,
+                        "donors": [
+                            {
+                                "store_id": "LA-003",
+                                "available_stock": 76,
+                                "can_donate": 38
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 107,
+                                "can_donate": 91
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for LA-001: Total stock: 5185, Average product rate: 435.69100000000003, Total rate: 2351805.31",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in clothing.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "electronics",
+                "grocery",
+                "beverages"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "LA"
+    },
+    "LA-002": {
+        "total_stock": 5904,
+        "avg_product_rate": 543.1098,
+        "total_rate": 3390695.6799999997,
+        "categories": {
+            "clothing": {
+                "total_stock": 1035,
+                "avg_product_rate": 530.9300000000001,
+                "total_rate": 662415.09,
+                "content": "Category clothing: Total stock: 1035, Average product rate: 530.9300000000001, Total rate: 662415.09",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Shorts",
+                        "current_stock": 46,
+                        "threshold_value": 48,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 295.43,
+                        "total_rate": 13589.77,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 137,
+                                "can_donate": 123
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Jeans",
+                        "current_stock": 23,
+                        "threshold_value": 38,
+                        "product_company": "H&M",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 272.94,
+                        "total_rate": 6277.68,
+                        "donors": [
+                            {
+                                "store_id": "HOU-001",
+                                "available_stock": 134,
+                                "can_donate": 116
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Sneakers",
+                        "current_stock": 35,
+                        "threshold_value": 41,
+                        "product_company": "Puma",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 336.64,
+                        "total_rate": 11782.46,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 114,
+                                "can_donate": 69
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 1191,
+                "avg_product_rate": 426.994,
+                "total_rate": 513522.61,
+                "content": "Category grocery: Total stock: 1191, Average product rate: 426.994, Total rate: 513522.61",
+                "comment": "Grocery performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Yogurt",
+                        "current_stock": 27,
+                        "threshold_value": 43,
+                        "product_company": "Publix",
+                        "expiry_date": "2026-11-11 20:06:59.864594",
+                        "product_rate": 182.76,
+                        "total_rate": 4934.53,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 86,
+                                "can_donate": 30
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 113,
+                                "can_donate": 57
+                            }
+                        ]
+                    }
+                ]
+            },
+            "electronics": {
+                "total_stock": 1333,
+                "avg_product_rate": 484.227,
+                "total_rate": 700042.73,
+                "content": "Category electronics: Total stock: 1333, Average product rate: 484.227, Total rate: 700042.73",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "furniture": {
+                "total_stock": 1153,
+                "avg_product_rate": 500.671,
+                "total_rate": 555134.65,
+                "content": "Category furniture: Total stock: 1153, Average product rate: 500.671, Total rate: 555134.65",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "beverages": {
+                "total_stock": 1192,
+                "avg_product_rate": 772.727,
+                "total_rate": 959580.6,
+                "content": "Category beverages: Total stock: 1192, Average product rate: 772.727, Total rate: 959580.6",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Energy Drink",
+                        "current_stock": 29,
+                        "threshold_value": 36,
+                        "product_company": "Red Bull",
+                        "expiry_date": "2026-09-19 20:06:59.867574",
+                        "product_rate": 867.66,
+                        "total_rate": 25162.04,
+                        "donors": [
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 121,
+                                "can_donate": 77
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for LA-002: Total stock: 5904, Average product rate: 543.1098, Total rate: 3390695.6799999997",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in beverages but underperforms in grocery.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [],
+            "overstock_warnings": []
+        },
+        "region": "LA"
+    },
+    "LA-003": {
+        "total_stock": 5482,
+        "avg_product_rate": 555.5278,
+        "total_rate": 3077793.3,
+        "categories": {
+            "furniture": {
+                "total_stock": 1368,
+                "avg_product_rate": 532.3080000000001,
+                "total_rate": 814667.2100000001,
+                "content": "Category furniture: Total stock: 1368, Average product rate: 532.3080000000001, Total rate: 814667.2100000001",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 1189,
+                "avg_product_rate": 551.4440000000001,
+                "total_rate": 635484.41,
+                "content": "Category electronics: Total stock: 1189, Average product rate: 551.4440000000001, Total rate: 635484.41",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Game Console",
+                        "current_stock": 26,
+                        "threshold_value": 34,
+                        "product_company": "LG",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 915.76,
+                        "total_rate": 23809.69,
+                        "donors": [
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 81,
+                                "can_donate": 33
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 981,
+                "avg_product_rate": 578.985,
+                "total_rate": 601634.2799999999,
+                "content": "Category grocery: Total stock: 981, Average product rate: 578.985, Total rate: 601634.2799999999",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Fruits",
+                        "current_stock": 17,
+                        "threshold_value": 38,
+                        "product_company": "Publix",
+                        "expiry_date": "2025-12-02 20:06:59.872433",
+                        "product_rate": 880.36,
+                        "total_rate": 14966.05,
+                        "donors": [
+                            {
+                                "store_id": "NYC-003",
+                                "available_stock": 157,
+                                "can_donate": 117
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 1152,
+                "avg_product_rate": 473.831,
+                "total_rate": 547482.1799999999,
+                "content": "Category clothing: Total stock: 1152, Average product rate: 473.831, Total rate: 547482.1799999999",
+                "comment": "Clothing performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "beverages": {
+                "total_stock": 792,
+                "avg_product_rate": 641.071,
+                "total_rate": 478525.22,
+                "content": "Category beverages: Total stock: 792, Average product rate: 641.071, Total rate: 478525.22",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Tea",
+                        "current_stock": 19,
+                        "threshold_value": 46,
+                        "product_company": "Red Bull",
+                        "expiry_date": "2026-05-03 20:06:59.873963",
+                        "product_rate": 771.49,
+                        "total_rate": 14658.26,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 133,
+                                "can_donate": 120
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Lemonade",
+                        "current_stock": 13,
+                        "threshold_value": 49,
+                        "product_company": "Dr Pepper",
+                        "expiry_date": "2026-06-05 20:06:59.874577",
+                        "product_rate": 795.55,
+                        "total_rate": 10342.16,
+                        "donors": []
+                    },
+                    {
+                        "product_name": "Energy Drink",
+                        "current_stock": 16,
+                        "threshold_value": 26,
+                        "product_company": "Lipton",
+                        "expiry_date": "2026-12-28 20:06:59.877487",
+                        "product_rate": 303.28,
+                        "total_rate": 4852.41,
+                        "donors": [
+                            {
+                                "store_id": "CHI-001",
+                                "available_stock": 125,
+                                "can_donate": 75
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for LA-003: Total stock: 5482, Average product rate: 555.5278, Total rate: 3077793.3",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in beverages.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "grocery",
+                "beverages"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "LA"
+    },
+    "CHI-001": {
+        "total_stock": 5988,
+        "avg_product_rate": 457.61379999999997,
+        "total_rate": 2916885.2399999998,
+        "categories": {
+            "clothing": {
+                "total_stock": 1055,
+                "avg_product_rate": 414.991,
+                "total_rate": 436654.18,
+                "content": "Category clothing: Total stock: 1055, Average product rate: 414.991, Total rate: 436654.18",
+                "comment": "Clothing performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "beverages": {
+                "total_stock": 1277,
+                "avg_product_rate": 358.251,
+                "total_rate": 498600.69999999995,
+                "content": "Category beverages: Total stock: 1277, Average product rate: 358.251, Total rate: 498600.69999999995",
+                "comment": "Beverages has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            },
+            "grocery": {
+                "total_stock": 1237,
+                "avg_product_rate": 525.029,
+                "total_rate": 702749.13,
+                "content": "Category grocery: Total stock: 1237, Average product rate: 525.029, Total rate: 702749.13",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "furniture": {
+                "total_stock": 1263,
+                "avg_product_rate": 537.664,
+                "total_rate": 696108.13,
+                "content": "Category furniture: Total stock: 1263, Average product rate: 537.664, Total rate: 696108.13",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 1156,
+                "avg_product_rate": 452.134,
+                "total_rate": 582773.1000000001,
+                "content": "Category electronics: Total stock: 1156, Average product rate: 452.134, Total rate: 582773.1000000001",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Laptop",
+                        "current_stock": 13,
+                        "threshold_value": 30,
+                        "product_company": "Huawei",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 341.77,
+                        "total_rate": 4443.03,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 75,
+                                "can_donate": 26
+                            },
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 114,
+                                "can_donate": 102
+                            },
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 172,
+                                "can_donate": 134
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for CHI-001: Total stock: 5988, Average product rate: 457.61379999999997, Total rate: 2916885.2399999998",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in grocery but underperforms in clothing.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [],
+            "overstock_warnings": []
+        },
+        "region": "CHI"
+    },
+    "CHI-002": {
+        "total_stock": 5471,
+        "avg_product_rate": 527.6014,
+        "total_rate": 2694374.9600000004,
+        "categories": {
+            "clothing": {
+                "total_stock": 1129,
+                "avg_product_rate": 501.88499999999993,
+                "total_rate": 524924.56,
+                "content": "Category clothing: Total stock: 1129, Average product rate: 501.88499999999993, Total rate: 524924.56",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "grocery": {
+                "total_stock": 852,
+                "avg_product_rate": 557.434,
+                "total_rate": 440142.06,
+                "content": "Category grocery: Total stock: 852, Average product rate: 557.434, Total rate: 440142.06",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Bread",
+                        "current_stock": 41,
+                        "threshold_value": 45,
+                        "product_company": "Aldi",
+                        "expiry_date": "2026-10-06 20:06:59.888951",
+                        "product_rate": 685.95,
+                        "total_rate": 28123.84,
+                        "donors": [
+                            {
+                                "store_id": "CHI-001",
+                                "available_stock": 102,
+                                "can_donate": 72
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 717,
+                "avg_product_rate": 580.384,
+                "total_rate": 425561.63,
+                "content": "Category furniture: Total stock: 717, Average product rate: 580.384, Total rate: 425561.63",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Bed",
+                        "current_stock": 39,
+                        "threshold_value": 42,
+                        "product_company": "La-Z-Boy",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 562.74,
+                        "total_rate": 21946.9,
+                        "donors": []
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1306,
+                "avg_product_rate": 542.168,
+                "total_rate": 737746.83,
+                "content": "Category beverages: Total stock: 1306, Average product rate: 542.168, Total rate: 737746.83",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 1467,
+                "avg_product_rate": 456.13599999999997,
+                "total_rate": 565999.88,
+                "content": "Category electronics: Total stock: 1467, Average product rate: 456.13599999999997, Total rate: 565999.88",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            }
+        },
+        "content": "Summary for CHI-002: Total stock: 5471, Average product rate: 527.6014, Total rate: 2694374.9600000004",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in beverages but underperforms in furniture.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "grocery",
+                "furniture"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "CHI"
+    },
+    "CHI-003": {
+        "total_stock": 5433,
+        "avg_product_rate": 433.24999999999994,
+        "total_rate": 2425063.0099999993,
+        "categories": {
+            "electronics": {
+                "total_stock": 1003,
+                "avg_product_rate": 377.96099999999996,
+                "total_rate": 391351.6,
+                "content": "Category electronics: Total stock: 1003, Average product rate: 377.96099999999996, Total rate: 391351.6",
+                "comment": "Electronics has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Portable Charger",
+                        "current_stock": 25,
+                        "threshold_value": 39,
+                        "product_company": "Sony",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 359.31,
+                        "total_rate": 8982.66,
+                        "donors": []
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1119,
+                "avg_product_rate": 443.8160000000001,
+                "total_rate": 536676.9599999998,
+                "content": "Category beverages: Total stock: 1119, Average product rate: 443.8160000000001, Total rate: 536676.9599999998",
+                "comment": "Beverages performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "clothing": {
+                "total_stock": 999,
+                "avg_product_rate": 394.706,
+                "total_rate": 338998.73,
+                "content": "Category clothing: Total stock: 999, Average product rate: 394.706, Total rate: 338998.73",
+                "comment": "Clothing has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            },
+            "grocery": {
+                "total_stock": 1303,
+                "avg_product_rate": 582.262,
+                "total_rate": 721474.56,
+                "content": "Category grocery: Total stock: 1303, Average product rate: 582.262, Total rate: 721474.56",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "furniture": {
+                "total_stock": 1009,
+                "avg_product_rate": 367.505,
+                "total_rate": 436561.16,
+                "content": "Category furniture: Total stock: 1009, Average product rate: 367.505, Total rate: 436561.16",
+                "comment": "Furniture has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Bed",
+                        "current_stock": 36,
+                        "threshold_value": 45,
+                        "product_company": "Steelcase",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 256.06,
+                        "total_rate": 9218.05,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 165,
+                                "can_donate": 143
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Desk",
+                        "current_stock": 30,
+                        "threshold_value": 31,
+                        "product_company": "Crate & Barrel",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 216.49,
+                        "total_rate": 6494.72,
+                        "donors": [
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 89,
+                                "can_donate": 64
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for CHI-003: Total stock: 5433, Average product rate: 433.24999999999994, Total rate: 2425063.0099999993",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in grocery but underperforms in clothing.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "clothing"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "CHI"
+    },
+    "HOU-001": {
+        "total_stock": 5470,
+        "avg_product_rate": 487.5252,
+        "total_rate": 2800827.3399999994,
+        "categories": {
+            "furniture": {
+                "total_stock": 1082,
+                "avg_product_rate": 587.2839999999999,
+                "total_rate": 673959.94,
+                "content": "Category furniture: Total stock: 1082, Average product rate: 587.2839999999999, Total rate: 673959.94",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Cabinet",
+                        "current_stock": 15,
+                        "threshold_value": 23,
+                        "product_company": "Restoration Hardware",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 543.86,
+                        "total_rate": 8157.84,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 153,
+                                "can_donate": 127
+                            },
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 89,
+                                "can_donate": 76
+                            },
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 164,
+                                "can_donate": 144
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Nightstand",
+                        "current_stock": 17,
+                        "threshold_value": 33,
+                        "product_company": "Restoration Hardware",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 288.01,
+                        "total_rate": 4896.15,
+                        "donors": [
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 103,
+                                "can_donate": 72
+                            }
+                        ]
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1041,
+                "avg_product_rate": 383.95500000000004,
+                "total_rate": 522766.08999999997,
+                "content": "Category beverages: Total stock: 1041, Average product rate: 383.95500000000004, Total rate: 522766.08999999997",
+                "comment": "Beverages has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Coconut Water",
+                        "current_stock": 19,
+                        "threshold_value": 46,
+                        "product_company": "Monster",
+                        "expiry_date": "2027-02-08 20:06:59.895819",
+                        "product_rate": 35.83,
+                        "total_rate": 680.7,
+                        "donors": [
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 174,
+                                "can_donate": 143
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Milk",
+                        "current_stock": 21,
+                        "threshold_value": 38,
+                        "product_company": "Coca-Cola",
+                        "expiry_date": "2026-02-08 20:06:59.897782",
+                        "product_rate": 302.94,
+                        "total_rate": 6361.8,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 148,
+                                "can_donate": 93
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 74,
+                                "can_donate": 58
+                            }
+                        ]
+                    }
+                ]
+            },
+            "electronics": {
+                "total_stock": 980,
+                "avg_product_rate": 595.0440000000001,
+                "total_rate": 565620.2699999999,
+                "content": "Category electronics: Total stock: 980, Average product rate: 595.0440000000001, Total rate: 565620.2699999999",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Tablet",
+                        "current_stock": 11,
+                        "threshold_value": 47,
+                        "product_company": "Microsoft",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 773.33,
+                        "total_rate": 8506.58,
+                        "donors": []
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 1240,
+                "avg_product_rate": 483.866,
+                "total_rate": 637816.54,
+                "content": "Category grocery: Total stock: 1240, Average product rate: 483.866, Total rate: 637816.54",
+                "comment": "Grocery performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Pasta",
+                        "current_stock": 16,
+                        "threshold_value": 33,
+                        "product_company": "Aldi",
+                        "expiry_date": "2025-05-26 20:06:59.898414",
+                        "product_rate": 12.75,
+                        "total_rate": 204.02,
+                        "donors": [
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 172,
+                                "can_donate": 152
+                            },
+                            {
+                                "store_id": "LA-003",
+                                "available_stock": 54,
+                                "can_donate": 29
+                            },
+                            {
+                                "store_id": "CHI-003",
+                                "available_stock": 126,
+                                "can_donate": 88
+                            },
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 99,
+                                "can_donate": 84
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 1127,
+                "avg_product_rate": 387.477,
+                "total_rate": 400664.5,
+                "content": "Category clothing: Total stock: 1127, Average product rate: 387.477, Total rate: 400664.5",
+                "comment": "Clothing has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Shorts",
+                        "current_stock": 15,
+                        "threshold_value": 44,
+                        "product_company": "Uniqlo",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 271.32,
+                        "total_rate": 4069.78,
+                        "donors": [
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 55,
+                                "can_donate": 41
+                            },
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 77,
+                                "can_donate": 40
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for HOU-001: Total stock: 5470, Average product rate: 487.5252, Total rate: 2800827.3399999994",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in clothing.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "electronics"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "HOU"
+    },
+    "HOU-002": {
+        "total_stock": 5186,
+        "avg_product_rate": 588.4835999999999,
+        "total_rate": 2984658.16,
+        "categories": {
+            "clothing": {
+                "total_stock": 964,
+                "avg_product_rate": 652.1009999999999,
+                "total_rate": 561608.16,
+                "content": "Category clothing: Total stock: 964, Average product rate: 652.1009999999999, Total rate: 561608.16",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "grocery": {
+                "total_stock": 1377,
+                "avg_product_rate": 575.2059999999999,
+                "total_rate": 778907.88,
+                "content": "Category grocery: Total stock: 1377, Average product rate: 575.2059999999999, Total rate: 778907.88",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 981,
+                "avg_product_rate": 693.232,
+                "total_rate": 651210.77,
+                "content": "Category electronics: Total stock: 981, Average product rate: 693.232, Total rate: 651210.77",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Smartwatch",
+                        "current_stock": 17,
+                        "threshold_value": 43,
+                        "product_company": "LG",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 895.91,
+                        "total_rate": 15230.55,
+                        "donors": [
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 119,
+                                "can_donate": 87
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 108,
+                                "can_donate": 77
+                            }
+                        ]
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1102,
+                "avg_product_rate": 468.30699999999996,
+                "total_rate": 563227.8,
+                "content": "Category beverages: Total stock: 1102, Average product rate: 468.30699999999996, Total rate: 563227.8",
+                "comment": "Beverages performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Coconut Water",
+                        "current_stock": 15,
+                        "threshold_value": 45,
+                        "product_company": "Nestl\u00e9",
+                        "expiry_date": "2027-03-21 20:06:59.901279",
+                        "product_rate": 340.61,
+                        "total_rate": 5109.15,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 114,
+                                "can_donate": 93
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 170,
+                                "can_donate": 154
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 762,
+                "avg_product_rate": 553.572,
+                "total_rate": 429703.55000000005,
+                "content": "Category furniture: Total stock: 762, Average product rate: 553.572, Total rate: 429703.55000000005",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Bed",
+                        "current_stock": 20,
+                        "threshold_value": 27,
+                        "product_company": "Room & Board",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 885.79,
+                        "total_rate": 17715.79,
+                        "donors": [
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 187,
+                                "can_donate": 175
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 194,
+                                "can_donate": 158
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for HOU-002: Total stock: 5186, Average product rate: 588.4835999999999, Total rate: 2984658.16",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in grocery but underperforms in furniture.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "clothing",
+                "electronics",
+                "furniture"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "HOU"
+    },
+    "HOU-003": {
+        "total_stock": 5360,
+        "avg_product_rate": 515.2026000000001,
+        "total_rate": 2878559.6,
+        "categories": {
+            "electronics": {
+                "total_stock": 1080,
+                "avg_product_rate": 563.677,
+                "total_rate": 604920.0399999999,
+                "content": "Category electronics: Total stock: 1080, Average product rate: 563.677, Total rate: 604920.0399999999",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Camera",
+                        "current_stock": 26,
+                        "threshold_value": 48,
+                        "product_company": "Dell",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 275.56,
+                        "total_rate": 7164.5,
+                        "donors": [
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 120,
+                                "can_donate": 64
+                            },
+                            {
+                                "store_id": "SF-003",
+                                "available_stock": 66,
+                                "can_donate": 38
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 1013,
+                "avg_product_rate": 498.015,
+                "total_rate": 447869.99999999994,
+                "content": "Category clothing: Total stock: 1013, Average product rate: 498.015, Total rate: 447869.99999999994",
+                "comment": "Clothing performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Sweater",
+                        "current_stock": 43,
+                        "threshold_value": 48,
+                        "product_company": "Gap",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 444.94,
+                        "total_rate": 19132.54,
+                        "donors": [
+                            {
+                                "store_id": "CHI-003",
+                                "available_stock": 105,
+                                "can_donate": 69
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "T-Shirt",
+                        "current_stock": 16,
+                        "threshold_value": 35,
+                        "product_company": "Uniqlo",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 426.88,
+                        "total_rate": 6830.05,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 111,
+                                "can_donate": 97
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Hoodie",
+                        "current_stock": 22,
+                        "threshold_value": 35,
+                        "product_company": "Adidas",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 690.32,
+                        "total_rate": 15186.97,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 118,
+                                "can_donate": 88
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 1153,
+                "avg_product_rate": 413.508,
+                "total_rate": 534089.8899999999,
+                "content": "Category grocery: Total stock: 1153, Average product rate: 413.508, Total rate: 534089.8899999999",
+                "comment": "Grocery performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Pasta",
+                        "current_stock": 29,
+                        "threshold_value": 43,
+                        "product_company": "Whole Foods",
+                        "expiry_date": "2026-03-26 20:06:59.906386",
+                        "product_rate": 279.69,
+                        "total_rate": 8110.9,
+                        "donors": []
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 920,
+                "avg_product_rate": 514.9510000000001,
+                "total_rate": 502758.31,
+                "content": "Category beverages: Total stock: 920, Average product rate: 514.9510000000001, Total rate: 502758.31",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Lemonade",
+                        "current_stock": 38,
+                        "threshold_value": 47,
+                        "product_company": "Pepsi",
+                        "expiry_date": "2025-12-23 20:06:59.904930",
+                        "product_rate": 608.39,
+                        "total_rate": 23118.85,
+                        "donors": [
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 137,
+                                "can_donate": 93
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Water",
+                        "current_stock": 10,
+                        "threshold_value": 27,
+                        "product_company": "Fanta",
+                        "expiry_date": "2027-03-21 20:06:59.905246",
+                        "product_rate": 394.09,
+                        "total_rate": 3940.87,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 40,
+                                "can_donate": 15
+                            },
+                            {
+                                "store_id": "LA-003",
+                                "available_stock": 36,
+                                "can_donate": 12
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Coconut Water",
+                        "current_stock": 22,
+                        "threshold_value": 40,
+                        "product_company": "Pepsi",
+                        "expiry_date": "2025-11-15 20:06:59.906078",
+                        "product_rate": 511.5,
+                        "total_rate": 11253.09,
+                        "donors": []
+                    },
+                    {
+                        "product_name": "Coffee",
+                        "current_stock": 23,
+                        "threshold_value": 44,
+                        "product_company": "Sprite",
+                        "expiry_date": "2026-05-01 20:06:59.908054",
+                        "product_rate": 533.44,
+                        "total_rate": 12269.01,
+                        "donors": []
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1194,
+                "avg_product_rate": 585.8619999999999,
+                "total_rate": 788921.36,
+                "content": "Category furniture: Total stock: 1194, Average product rate: 585.8619999999999, Total rate: 788921.36",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            }
+        },
+        "content": "Summary for HOU-003: Total stock: 5360, Average product rate: 515.2026000000001, Total rate: 2878559.6",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in clothing.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "beverages"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "HOU"
+    },
+    "SF-001": {
+        "total_stock": 5610,
+        "avg_product_rate": 546.9431999999999,
+        "total_rate": 2946647.4600000004,
+        "categories": {
+            "grocery": {
+                "total_stock": 989,
+                "avg_product_rate": 384.69,
+                "total_rate": 312736.82000000007,
+                "content": "Category grocery: Total stock: 989, Average product rate: 384.69, Total rate: 312736.82000000007",
+                "comment": "Grocery has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales.",
+                "understock": [
+                    {
+                        "product_name": "Fruits",
+                        "current_stock": 16,
+                        "threshold_value": 26,
+                        "product_company": "Costco",
+                        "expiry_date": "2026-02-22 20:06:59.912449",
+                        "product_rate": 264.71,
+                        "total_rate": 4235.4,
+                        "donors": [
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 69,
+                                "can_donate": 42
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clothing": {
+                "total_stock": 1054,
+                "avg_product_rate": 686.0720000000001,
+                "total_rate": 794226.64,
+                "content": "Category clothing: Total stock: 1054, Average product rate: 686.0720000000001, Total rate: 794226.64",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Jacket",
+                        "current_stock": 14,
+                        "threshold_value": 16,
+                        "product_company": "H&M",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 882.36,
+                        "total_rate": 12353.03,
+                        "donors": [
+                            {
+                                "store_id": "NYC-003",
+                                "available_stock": 165,
+                                "can_donate": 132
+                            },
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 196,
+                                "can_donate": 178
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1459,
+                "avg_product_rate": 557.382,
+                "total_rate": 868011.76,
+                "content": "Category furniture: Total stock: 1459, Average product rate: 557.382, Total rate: 868011.76",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "beverages": {
+                "total_stock": 1050,
+                "avg_product_rate": 588.198,
+                "total_rate": 543261.46,
+                "content": "Category beverages: Total stock: 1050, Average product rate: 588.198, Total rate: 543261.46",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 1058,
+                "avg_product_rate": 518.374,
+                "total_rate": 428410.78,
+                "content": "Category electronics: Total stock: 1058, Average product rate: 518.374, Total rate: 428410.78",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Television",
+                        "current_stock": 23,
+                        "threshold_value": 44,
+                        "product_company": "LG",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 994.67,
+                        "total_rate": 22877.5,
+                        "donors": [
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 72,
+                                "can_donate": 47
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "content": "Summary for SF-001: Total stock: 5610, Average product rate: 546.9431999999999, Total rate: 2946647.4600000004",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in furniture but underperforms in grocery.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "grocery"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "SF"
+    },
+    "SF-002": {
+        "total_stock": 4698,
+        "avg_product_rate": 543.2692000000001,
+        "total_rate": 2393048.18,
+        "categories": {
+            "furniture": {
+                "total_stock": 933,
+                "avg_product_rate": 562.556,
+                "total_rate": 509667.35,
+                "content": "Category furniture: Total stock: 933, Average product rate: 562.556, Total rate: 509667.35",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Bookshelf",
+                        "current_stock": 25,
+                        "threshold_value": 26,
+                        "product_company": "Room & Board",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 514.63,
+                        "total_rate": 12865.86,
+                        "donors": []
+                    },
+                    {
+                        "product_name": "Nightstand",
+                        "current_stock": 27,
+                        "threshold_value": 48,
+                        "product_company": "Steelcase",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 343.04,
+                        "total_rate": 9262.03,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 84,
+                                "can_donate": 71
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 688,
+                "avg_product_rate": 610.587,
+                "total_rate": 391052.65,
+                "content": "Category grocery: Total stock: 688, Average product rate: 610.587, Total rate: 391052.65",
+                "comment": "Grocery shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Spices",
+                        "current_stock": 28,
+                        "threshold_value": 49,
+                        "product_company": "Costco",
+                        "expiry_date": "2025-12-19 20:06:59.912807",
+                        "product_rate": 550.95,
+                        "total_rate": 15426.5,
+                        "donors": []
+                    },
+                    {
+                        "product_name": "Noodles",
+                        "current_stock": 46,
+                        "threshold_value": 48,
+                        "product_company": "Safeway",
+                        "expiry_date": "2026-11-05 20:06:59.913723",
+                        "product_rate": 427.17,
+                        "total_rate": 19649.84,
+                        "donors": [
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 146,
+                                "can_donate": 90
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Rice",
+                        "current_stock": 18,
+                        "threshold_value": 35,
+                        "product_company": "Walmart",
+                        "expiry_date": "2026-11-12 20:06:59.914152",
+                        "product_rate": 534.35,
+                        "total_rate": 9618.21,
+                        "donors": [
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 123,
+                                "can_donate": 84
+                            },
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 171,
+                                "can_donate": 138
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Cereal",
+                        "current_stock": 37,
+                        "threshold_value": 48,
+                        "product_company": "Walmart",
+                        "expiry_date": "2026-06-16 20:06:59.915216",
+                        "product_rate": 836.67,
+                        "total_rate": 30956.95,
+                        "donors": [
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 138,
+                                "can_donate": 86
+                            }
+                        ]
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 943,
+                "avg_product_rate": 469.96900000000005,
+                "total_rate": 395296.82,
+                "content": "Category beverages: Total stock: 943, Average product rate: 469.96900000000005, Total rate: 395296.82",
+                "comment": "Beverages performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance."
+            },
+            "clothing": {
+                "total_stock": 932,
+                "avg_product_rate": 569.431,
+                "total_rate": 571870.52,
+                "content": "Category clothing: Total stock: 932, Average product rate: 569.431, Total rate: 571870.52",
+                "comment": "Clothing shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            },
+            "electronics": {
+                "total_stock": 1202,
+                "avg_product_rate": 503.803,
+                "total_rate": 525160.84,
+                "content": "Category electronics: Total stock: 1202, Average product rate: 503.803, Total rate: 525160.84",
+                "comment": "Electronics shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity."
+            }
+        },
+        "content": "Summary for SF-002: Total stock: 4698, Average product rate: 543.2692000000001, Total rate: 2393048.18",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in clothing but underperforms in grocery.",
+            "comparison": "This warehouse performs slightly below average compared to others.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "furniture",
+                "grocery",
+                "beverages",
+                "clothing"
+            ],
+            "overstock_warnings": []
+        },
+        "region": "SF"
+    },
+    "SF-003": {
+        "total_stock": 6191,
+        "avg_product_rate": 467.74679999999995,
+        "total_rate": 2988348.0399999996,
+        "categories": {
+            "clothing": {
+                "total_stock": 1102,
+                "avg_product_rate": 489.242,
+                "total_rate": 514817.2300000001,
+                "content": "Category clothing: Total stock: 1102, Average product rate: 489.242, Total rate: 514817.2300000001",
+                "comment": "Clothing performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Dress",
+                        "current_stock": 20,
+                        "threshold_value": 27,
+                        "product_company": "Adidas",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 312.7,
+                        "total_rate": 6253.9,
+                        "donors": [
+                            {
+                                "store_id": "NYC-001",
+                                "available_stock": 53,
+                                "can_donate": 35
+                            },
+                            {
+                                "store_id": "LA-001",
+                                "available_stock": 193,
+                                "can_donate": 175
+                            },
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 79,
+                                "can_donate": 28
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Shorts",
+                        "current_stock": 36,
+                        "threshold_value": 46,
+                        "product_company": "Adidas",
+                        "expiry_date": "2028-06-30",
+                        "product_rate": 763.03,
+                        "total_rate": 27469.0,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 35,
+                                "can_donate": 10
+                            },
+                            {
+                                "store_id": "CHI-001",
+                                "available_stock": 139,
+                                "can_donate": 114
+                            },
+                            {
+                                "store_id": "CHI-002",
+                                "available_stock": 169,
+                                "can_donate": 141
+                            },
+                            {
+                                "store_id": "SF-001",
+                                "available_stock": 171,
+                                "can_donate": 153
+                            }
+                        ]
+                    }
+                ]
+            },
+            "furniture": {
+                "total_stock": 1226,
+                "avg_product_rate": 550.875,
+                "total_rate": 684602.22,
+                "content": "Category furniture: Total stock: 1226, Average product rate: 550.875, Total rate: 684602.22",
+                "comment": "Furniture shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Chair",
+                        "current_stock": 45,
+                        "threshold_value": 46,
+                        "product_company": "Wayfair",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 286.18,
+                        "total_rate": 12878.19,
+                        "donors": [
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 129,
+                                "can_donate": 107
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Armchair",
+                        "current_stock": 20,
+                        "threshold_value": 49,
+                        "product_company": "Pottery Barn",
+                        "expiry_date": "2035-12-31",
+                        "product_rate": 661.73,
+                        "total_rate": 13234.66,
+                        "donors": [
+                            {
+                                "store_id": "HOU-002",
+                                "available_stock": 50,
+                                "can_donate": 13
+                            }
+                        ]
+                    }
+                ]
+            },
+            "beverages": {
+                "total_stock": 1227,
+                "avg_product_rate": 500.195,
+                "total_rate": 745379.68,
+                "content": "Category beverages: Total stock: 1227, Average product rate: 500.195, Total rate: 745379.68",
+                "comment": "Beverages shows premium pricing with high average rate.",
+                "suggestion": "Capitalize on premium pricing by marketing exclusivity.",
+                "understock": [
+                    {
+                        "product_name": "Energy Drink",
+                        "current_stock": 27,
+                        "threshold_value": 47,
+                        "product_company": "Fanta",
+                        "expiry_date": "2027-01-22 20:06:59.918409",
+                        "product_rate": 389.16,
+                        "total_rate": 10507.3,
+                        "donors": []
+                    }
+                ]
+            },
+            "electronics": {
+                "total_stock": 951,
+                "avg_product_rate": 416.78099999999995,
+                "total_rate": 397073.8400000001,
+                "content": "Category electronics: Total stock: 951, Average product rate: 416.78099999999995, Total rate: 397073.8400000001",
+                "comment": "Electronics performs moderately with balanced stock and rate.",
+                "suggestion": "Monitor trends to maintain performance.",
+                "understock": [
+                    {
+                        "product_name": "Smartphone",
+                        "current_stock": 31,
+                        "threshold_value": 40,
+                        "product_company": "Apple",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 118.22,
+                        "total_rate": 3664.73,
+                        "donors": [
+                            {
+                                "store_id": "LA-002",
+                                "available_stock": 174,
+                                "can_donate": 125
+                            },
+                            {
+                                "store_id": "CHI-001",
+                                "available_stock": 143,
+                                "can_donate": 97
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Smart Speaker",
+                        "current_stock": 34,
+                        "threshold_value": 44,
+                        "product_company": "Microsoft",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 889.13,
+                        "total_rate": 30230.38,
+                        "donors": [
+                            {
+                                "store_id": "NYC-002",
+                                "available_stock": 192,
+                                "can_donate": 134
+                            },
+                            {
+                                "store_id": "HOU-003",
+                                "available_stock": 174,
+                                "can_donate": 149
+                            }
+                        ]
+                    },
+                    {
+                        "product_name": "Television",
+                        "current_stock": 19,
+                        "threshold_value": 35,
+                        "product_company": "HP",
+                        "expiry_date": "2030-01-01",
+                        "product_rate": 836.88,
+                        "total_rate": 15900.78,
+                        "donors": [
+                            {
+                                "store_id": "HOU-001",
+                                "available_stock": 119,
+                                "can_donate": 81
+                            },
+                            {
+                                "store_id": "SF-002",
+                                "available_stock": 141,
+                                "can_donate": 119
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grocery": {
+                "total_stock": 1685,
+                "avg_product_rate": 381.64099999999996,
+                "total_rate": 646475.07,
+                "content": "Category grocery: Total stock: 1685, Average product rate: 381.64099999999996, Total rate: 646475.07",
+                "comment": "Grocery has lower rates; consider revising pricing or promotions.",
+                "suggestion": "Introduce discounts or bundles to improve sales."
+            }
+        },
+        "content": "Summary for SF-003: Total stock: 6191, Average product rate: 467.74679999999995, Total rate: 2988348.0399999996",
+        "performance_metrics": {
+            "overall_comment": "This store performs well in beverages but underperforms in electronics.",
+            "comparison": "This warehouse outperforms others in total stock and total rate.",
+            "low_stock_alerts": [],
+            "restock_suggestions": [
+                "electronics"
+            ],
+            "overstock_warnings": [
+                "grocery"
+            ]
+        },
+        "region": "SF"
+    },
+    "regions": {
+        "NYC": {
+            "stores": [
+                "NYC-001",
+                "NYC-002",
+                "NYC-003"
+            ],
+            "total_stock": 17149,
+            "avg_product_rate": 477.3027214414835,
+            "total_rate": 8185264.370000001,
+            "top_performing_category": "furniture"
+        },
+        "LA": {
+            "stores": [
+                "LA-001",
+                "LA-002",
+                "LA-003"
+            ],
+            "total_stock": 16571,
+            "avg_product_rate": 532.2729038682035,
+            "total_rate": 8820294.29,
+            "top_performing_category": "furniture"
+        },
+        "CHI": {
+            "stores": [
+                "CHI-001",
+                "CHI-002",
+                "CHI-003"
+            ],
+            "total_stock": 16892,
+            "avg_product_rate": 475.74728924934874,
+            "total_rate": 8036323.209999999,
+            "top_performing_category": "furniture"
+        },
+        "HOU": {
+            "stores": [
+                "HOU-001",
+                "HOU-002",
+                "HOU-003"
+            ],
+            "total_stock": 16016,
+            "avg_product_rate": 540.9618568931069,
+            "total_rate": 8664045.1,
+            "top_performing_category": "furniture"
+        },
+        "SF": {
+            "stores": [
+                "SF-001",
+                "SF-002",
+                "SF-003"
+            ],
+            "total_stock": 16499,
+            "avg_product_rate": 504.7605115461543,
+            "total_rate": 8328043.68,
+            "top_performing_category": "furniture"
+        }
+    }
+}
